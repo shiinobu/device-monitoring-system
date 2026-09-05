@@ -1,6 +1,6 @@
-# Device Management System (DMS)
+# Device Monitoring System (DMS)
 
-A realtime Device Management System built to monitor device availability through periodic heartbeats and WebSocket status updates.
+A realtime Device Monitoring System built to monitor device availability through periodic heartbeats and WebSocket status updates.
 
 The project demonstrates a practical backend architecture with **Go, PostgreSQL, JWT authentication, background monitoring, WebSocket, and Docker Compose**, integrated with a **Next.js dashboard**.
 
@@ -31,7 +31,7 @@ The project demonstrates a practical backend architecture with **Go, PostgreSQL,
 │ Gin + JWT            │
 │ Handler → Service    │
 │ → Repository         │
-└──────┬───────┬───────┘
+└──────┬───────┬──────┘
        │       │
        ▼       ▼
 ┌──────────┐  ┌────────────────┐
@@ -85,7 +85,7 @@ The project demonstrates a practical backend architecture with **Go, PostgreSQL,
 ## Project Structure
 
 ```text
-DMS/
+device-monitoring-system/
 ├── backend/
 │   ├── cmd/
 │   │   ├── server/
@@ -174,8 +174,8 @@ docker compose down
 Clone the repository:
 
 ```powershell
-git clone https://github.com/shiinobu/DMS.git
-cd DMS
+git clone https://github.com/shiinobu/device-monitoring-system.git
+cd device-monitoring-system
 ```
 
 Install backend dependencies:

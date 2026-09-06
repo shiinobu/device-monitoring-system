@@ -416,10 +416,10 @@ https://shorturl.at/7wM7z
 
 This repository is a portfolio/demo project focused on realtime device monitoring and backend engineering practices.
 
-- Automated backend unit tests are included for authentication and configuration behavior.
-- GitHub Actions validates backend tests, `go vet`, and the frontend production build on pushes and pull requests to `main`.
+- GitHub Actions validates the backend with `go test ./...` and `go vet ./...`, and builds the frontend on pushes and pull requests to `main`.
 - Docker Compose provides a reproducible local stack for PostgreSQL, backend, frontend, and simulator.
-- Screenshots can be added later to make the portfolio presentation more visual.
+- The repository includes authentication and configuration code paths that are suitable candidates for continued unit-test expansion.
+- Screenshots and a video demonstration are available as part of the portfolio presentation.
 
 ## License
 

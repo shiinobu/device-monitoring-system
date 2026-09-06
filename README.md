@@ -62,7 +62,7 @@ The project demonstrates a practical backend architecture with **Go, PostgreSQL,
 
 ### Backend
 
-- Go 1.24+
+- Go 1.26+
 - Gin
 - pgxpool
 - JWT
@@ -116,7 +116,7 @@ device-monitoring-system/
 
 For local development:
 
-- Go 1.24+
+- Go 1.26+
 - Node.js 22+
 - npm
 - PostgreSQL 16+
@@ -230,7 +230,7 @@ Backend environment variables:
 ```env
 APP_ENV=development
 APP_PORT=8080
-DATABASE_URL=postgres://postgres:postgres@localhost:5432/dms?sslmode=disable
+DATABASE_URL=postgres://postgres:postgres@postgres:5432/dms?sslmode=disable
 JWT_SECRET=change-this-secret
 JWT_EXPIRATION=24h
 HEARTBEAT_TIMEOUT=30s
